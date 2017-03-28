@@ -43,6 +43,9 @@ export default class Welcome extends React.Component {
       <div className="welcome" style={styles.main}>
         <h1>Welcome to STORYBOOK</h1>
         <p>
+          this <button>button</button> should not be getting affected, but it is.
+        </p>
+        <p>
           This is a UI component dev environment for your app.
         </p>
         <p>
